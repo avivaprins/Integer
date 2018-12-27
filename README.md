@@ -1,5 +1,5 @@
 # Integer
-C++ Integer class
+C++14 Integer class
 
 I have made an integer class to mimic the functionality of `int` in C++. Unlike `int`, `Integer` can hypothetically hold numbers that are much much larger. 
 
