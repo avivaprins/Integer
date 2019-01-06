@@ -43,6 +43,7 @@ public:
 	Integer& operator+=(const Integer& value); // Adds value to lhs and returns lhs
 	Integer& operator-=(const Integer& value); // Subtracts value from lhs and returns lhs
 	Integer& operator*=(const Integer& value); // Multiplies value to lhs and returns lhs
+	//TODO: dividing Integers (for use in fraction class)
 
 	Integer& operator++();			// Prefix increment
 	Integer operator++(int unused); // Postfix increment
@@ -51,6 +52,7 @@ public:
 
 	Integer operator-() const; // -a: flips the sign of a
 	Integer operator+() const; // +a: returns a copy of a
+	Integer abs() const;       // |a|: takes the magnitude of a
 
 	// Accessors
 	void print_as_int(std::ostream& out) const;  // Prints the lhs in base 10
